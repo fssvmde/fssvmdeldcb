@@ -6,11 +6,13 @@ Pytorch implementation of the paper "Diffusion-Based Voice Conversion with Fast 
 
 Please check *inference_multi.ipynb* for the instructions.
 
-The pre-trained universal HiFi-GAN vocoder we use is available at https://drive.google.com/file/d/10khlrM645pTbQ4rc2aNEYPba8RFDBkW-/view?usp=sharing
+The pre-trained universal HiFi-GAN vocoder we use is available at https://drive.google.com/file/d/10khlrM645pTbQ4rc2aNEYPba8RFDBkW-/view?usp=sharing. Please put it to *checkpoints/vocoder/universal/*
 
 You have to download voice conversion model trained on LibriTTS from here: https://drive.google.com/file/d/18Xbme0CTVo58p2vOHoTQm8PBGW7oEjAy/view?usp=sharing
 
 Additionally, we provide voice conversion model trained on VCTK: https://drive.google.com/file/d/12s9RPmwp9suleMkBCVetD8pub7wsDAy4/view?usp=sharing
+
+Please put voice conversion models to *checkpoitns/vc/*
 
 # Training your own model
 
