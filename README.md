@@ -20,6 +20,6 @@ Brief instructions:
 
 1. If you want to train the encoder, please run *train_enc.py*. Before that, you have to prepare two folders: "mels" with the input mel-spectrograms and "mels_avg" - with those of the "average voice". To obtain the latter, you have to run Montreal Forced Aligner (or any other alignment algorithm of your choice) on the input mels. Please check our paper for more details on how the "average voice" is built.
 
-2. Run *train_dec.py* to train the decoder. Before that, you have to prepare three folders: "mels" with mel-spectrograms, "wavs" with raw audio files and "embeds" with 256-dimensional speaker embeddings extracted by the pre-trained speaker verification network.
+2. Run *train_dec.py* to train the decoder. Before that, you have to prepare three folders: "mels" with mel-spectrograms, "wavs" with raw audio files and "embeds" with 256-dimensional speaker embeddings extracted by the pre-trained speaker verification network located at *checkpoints/spk_encoder*
 
-More detailed instructions will be provided soon.
+The functions for extracting speaker embedding and calculating mel-spectrograms can be found at *inference_multi.ipynb* (*get_mel* and *get_embed* correspondingly). More detailed instructions will be provided soon.
