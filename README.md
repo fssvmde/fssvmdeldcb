@@ -22,4 +22,4 @@ Brief instructions:
 
 2. Run *train_dec.py* to train the decoder. Before that, you have to prepare three folders: "mels" with mel-spectrograms, "wavs" with raw audio files and "embeds" with 256-dimensional speaker embeddings extracted by the pre-trained speaker verification network located at *checkpoints/spk_encoder*
 
-The functions for extracting speaker embedding and calculating mel-spectrograms can be found at *inference_multi.ipynb* (*get_mel* and *get_embed* correspondingly). More detailed instructions will be provided soon.
+The functions for extracting speaker embedding and calculating mel-spectrograms can be found at *inference_multi.ipynb* (*get_embed* and *get_mel* correspondingly). More detailed instructions will be provided soon.
