@@ -12,7 +12,7 @@ You have to download voice conversion model trained on LibriTTS from here: https
 
 Additionally, we provide voice conversion model trained on VCTK: https://drive.google.com/file/d/12s9RPmwp9suleMkBCVetD8pub7wsDAy4/view?usp=sharing
 
-Please put voice conversion models to *checkpoitns/vc/*
+Please put voice conversion models to *checkpoints/vc/*
 
 # Training your own model
 
